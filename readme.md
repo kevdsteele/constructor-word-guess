@@ -54,11 +54,11 @@
 
 ## Demos
 
-## Playing through and not playing again 
+### Playing through and not playing again 
 
 ![Demo 1 ](demo1.gif)
 
-## Playing through and playing again 
+### Playing through and playing again 
 
 ![Demo 2 ](demo2.gif)
 
