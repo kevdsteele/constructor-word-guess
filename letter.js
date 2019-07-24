@@ -7,8 +7,6 @@ this.guessed = false,
 this.display = function () {
 if (this.guessed===true) {
     return this.character
-} else if (this.character ==="-") {
-    return this.character
 } else
 return this.placeHolder
 

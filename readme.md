@@ -19,6 +19,22 @@
 ### This is an application that demonstrates how to use Javascript Construtors. It consist of three files:
 
 > index.js is the main file that consists of the primary game functions
+> index.js requires the words.js file 
 
+> words.js contains a Constructor that is responible for holding an array of letter objects. It also contains three functions. It requires the letter.js file 
 
+* A functions that calls upon the letter.js Contructor to create the letter object
 
+* A Function to update the word with either a guessed letter or a placeholder
+
+* a Function to process the guessed letter 
+
+> letters.js contains a Constructor that creates each letter object
+
+* String value for each letter, space, hyphen or perion contained in the random superhero name 
+
+* A boolean value to indicate if the letter has been guessed 
+
+* A function that shows the character of the placeholder 
+
+* A function that compares the guess each character and updates to true when guessed 
