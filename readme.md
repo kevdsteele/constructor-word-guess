@@ -52,8 +52,14 @@
 * A function named *check* that compares the guess each character and updates to true when guessed 
 
 
-## Demo 
+## Demos
 
-## 1
+## Playing through and not playing again 
 
 ![Demo 1 ](demo1.gif)
+
+## Playing through and playing again 
+
+![Demo 2 ](demo2.gif)
+
+
