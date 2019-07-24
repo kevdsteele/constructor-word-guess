@@ -1,0 +1,27 @@
+{
+  "name": "constructor-word-guess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "inquirer": "^6.5.0",
+    "save": "^2.4.0",
+    "superheroes": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevdsteele/constructor-word-guess.git"
+  },
+  "author": "Kevin Steele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevdsteele/constructor-word-guess/issues"
+  },
+  "homepage": "https://github.com/kevdsteele/constructor-word-guess#readme"
+}
