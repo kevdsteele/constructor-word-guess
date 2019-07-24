@@ -1,6 +1,8 @@
 # Constructor Superhero Word Guess CLI Game
 
-## Fully developed by Kevin Steele for GWU Full Stack Web Development BootCamp 
+## This is an application that demonstrates how to use Javascript Construtcors by creating a word guessing game. 
+
+### Fully developed by Kevin Steele for GWU Full Stack Web Development BootCamp 
 
 **Github repo**: https://github.com/kevdsteele/constructor-word-guess
 
@@ -15,11 +17,13 @@
 * The Node **Chalk** package is used to provide color output to the console. 
 * The Node **Clear** package clears the console after each game.
 
+### Organization
 
-### This is an application that demonstrates how to use Javascript Construtors. It consist of three files:
+### This application consists of three main files
 
-> **index.js** Is the main file that consists of the primary game functions
-> It requires the **words.js** file. 
+> **Index.js** Is the main file that consists of the primary game functions
+
+> It requires the **Words.js** file. 
 
 * *initGame* Initializes the game each time it is played 
 
@@ -31,7 +35,7 @@
 
 * *playAgain* Uses Inquirer to ask the user if they want to keep playing 
 
-> **words.js** contains a Constructor that is responible for holding an array of letter objects and three functions. It requires the **letter.js** file. 
+> **Words.js** contains a Constructor that is responible for holding an array of letter objects and three functions. It requires the **Letter.js** file. 
 
 * A function named *createLetters* that calls upon the letter.js Contructor to create the letter object
 
@@ -39,7 +43,7 @@
 
 * A function named *guess* which calls upon the letter.js check function to process the guessed letter 
 
-> **letters.js** contains a Constructor that creates each letter object
+> **Letters.js** contains a Constructor that creates each letter object
 
 * String value for each letter, space, hyphen or perion contained in the random superhero name 
 
