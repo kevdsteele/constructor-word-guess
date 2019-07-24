@@ -62,4 +62,8 @@
 
 ![Demo 2 ](demo2.gif)
 
+### Playing through and losing
+
+![Demo 3 ](demo3.gif)
+
 
