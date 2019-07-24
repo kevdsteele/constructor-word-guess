@@ -8,7 +8,7 @@
 
 * **[Node.JS](https://nodejs.org/en/download/)** must be installed to run this application
 
-> * [Chalk](https://www.npmjs.com/package/chalk), [Clear] (https://www.npmjs.com/package/clear) , [Inquirer](https://www.npmjs.com/package/inquirer) and [Superheroes] (https://www.npmjs.com/package/superheroes) node packages must also be installed before running this application*
+> * [Chalk](https://www.npmjs.com/package/chalk), [Clear](https://www.npmjs.com/package/clear) , [Inquirer](https://www.npmjs.com/package/inquirer) and [Superheroes](https://www.npmjs.com/package/superheroes) node packages must also be installed before running this application*
 
 * The Node Superheroes package is used to generate a randaom superhero name as the word to guess. 
 * The Node Inquirer package is used to get the user input. 
