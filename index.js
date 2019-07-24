@@ -48,7 +48,7 @@ function initGame() {
     /* calls the function to create each letter object for the word and display onscreen*/
     selection.createLetters(word,screenDisplay)
     /*Begin game play*/
-    playGame(word,selection,screenDisplay,badGuess,guessedLetters);
+    getGuess(word,selection,screenDisplay,badGuess,guessedLetters);
 }
 
 /*Function that asks the user to guess a letter */
@@ -88,9 +88,7 @@ function getGuess (word,selection,screenDisplay,badGuess,guessedLetters) {
     });
 }
  
-function validateGuess (guess) {
 
-}
 
 function playGame (word,selection,screenDisplay,badGuess,guessedLetters) {
    
@@ -105,7 +103,7 @@ function playGame (word,selection,screenDisplay,badGuess,guessedLetters) {
         playAgain()
 
         }  else {
-            /*if the puzzle is not solved prompt for a guess*/
+            /*if the puzzle is not solved prompt for another guess*/
             getGuess(word,selection,screenDisplay,badGuess,guessedLetters);
         }
 

@@ -18,10 +18,20 @@
 
 ### This is an application that demonstrates how to use Javascript Construtors. It consist of three files:
 
-> index.js is the main file that consists of the primary game functions
-> index.js requires the words.js file 
+> index.js Is the main file that consists of the primary game functions
+> It requires the words.js file. 
 
-> words.js contains a Constructor that is responible for holding an array of letter objects. It also contains three functions. It requires the letter.js file 
+* initGame Initializes the game each time it is played 
+
+* getGuess Uses Inquirer to get the user guess
+
+* playGame Is the main game logic
+
+* checkSolved Checks to see if the word has been solved 
+
+* playAgain Uses Inquirer to ask the user if they want to keep playing 
+
+> words.js contains a Constructor that is responible for holding an array of letter objects and three functions. It requires the letter.js file. 
 
 * A functions that calls upon the letter.js Contructor to create the letter object
 
